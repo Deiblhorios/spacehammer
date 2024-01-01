@@ -5,7 +5,7 @@ require 'modules.config'
 
 function checkUpdate()
     hs.execute('cd ' .. base_path)
-    local result = hs.execute('git pull origin main')
+    local result = hs.execute('git pull origin dev')
     print('Pull Result:', result)
     -- 已是最新
     -- if string.find(result, '.*Already up to date..*') ~= nil then

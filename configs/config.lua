@@ -1,29 +1,32 @@
 ---@diagnostic disable: lowercase-global
 -- 默认加载的功能模块
+
+require 'modules.base'
+
 defaultConfig = {{
     -- 配置版本号
     -- 每次新增功能项，需将版本号加 1
-    configVersion = '9'
+    configVersion = '19'
 }, {
     module = 'modules.winman',
     name = '窗口管理',
-    enable = true
+    enable = false
 }, {
     module = 'modules.application',
     name = '应用快启快切 🚀 ',
-    enable = true
+    enable = false
 }, {
     module = 'modules.emoji',
     name = '快发表情 😄 ',
-    enable = true
+    enable = false
 }, {
     module = 'modules.input-method',
     name = '输入法自动切换',
-    enable = true
+    enable = false
 }, {
     module = 'modules.systemInfo',
     name = 'iStatMenus',
-    enable = true
+    enable = false
 }, {
     module = 'modules.keystroke-visualizer',
     name = '按键回显',
@@ -31,19 +34,19 @@ defaultConfig = {{
 }, {
     module = 'modules.superSKey',
     name = '超级 S 键',
-    enable = true
+    enable = false
 }, {
     module = 'modules.clipboardtool',
     name = '剪贴板工具',
-    enable = true
+    enable = false
 }, {
     module = 'modules.remapingKey',
     name = '自定按键映射',
-    enable = true
+    enable = false
 }, {
     module = 'modules.jsonFormat',
     name = 'JSON格式化',
-    enable = true
+    enable = false
 }, {
     module = 'modules.remind',
     name = '提醒下班',
@@ -51,7 +54,7 @@ defaultConfig = {{
 }, {
     module = 'modules.update',
     name = '自动检查更新',
-    enable = true
+    enable = false
 }}
 
 base_path = os.getenv("HOME") .. '/.hammerspoon/'
