@@ -132,7 +132,7 @@
 本工程所有脚本都基于 Hammerspoon 运行，请先下载安装 [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)，然后再执行如下命令：
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/boomker/spacehammer/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Deiblhorios/spacehammer/main/install.sh | sh
 ```
 
 如上面这条 `curl` 命令下载不了 `install.sh`，则请打开终端代理后重试或手动下载 `install.sh` 后执行

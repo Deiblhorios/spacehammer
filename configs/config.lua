@@ -36,7 +36,7 @@ defaultConfig = {{
     name = '超级 S 键',
     enable = false
 }, {
-    module = 'modules.clipboardtool',
+    module = 'modules.clipboard',
     name = '剪贴板工具',
     enable = false
 }, {
